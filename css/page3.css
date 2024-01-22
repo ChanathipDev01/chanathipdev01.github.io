@@ -307,7 +307,7 @@ body {
   }
   
   .flex-item h2 {
-    text-align: justify;
+    text-align: left;
     color: aliceblue;
   }
 }
