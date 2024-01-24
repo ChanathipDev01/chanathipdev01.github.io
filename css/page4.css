@@ -29,14 +29,18 @@ body {
   .menu li{
     margin: 30px;
   }
-  ul {
+  ul.menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
   }
-  
   li {
     float: left;
   }
@@ -59,7 +63,7 @@ body {
     background-color: rgb(34, 19, 255);
   }
   .oneflex{
-    margin: 5px;
+    margin-top: 100px;
     background-color: #36486b;
     padding-bottom: 300px;
   }
@@ -203,7 +207,7 @@ body {
   }
   
   .oneflex {
-    margin: 5px;
+    margin-top: 310px;
     background-color: #36486b;
     padding-bottom: 50px;
   }

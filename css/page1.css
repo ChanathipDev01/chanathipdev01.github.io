@@ -35,6 +35,11 @@ ul.menu {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 li {
   float: left;
@@ -93,7 +98,8 @@ li a:hover {
   width: 90%;
 }
 .flex{
-  margin: 5px;
+  margin-top: 100px;
+  /* margin: 5px; */
   background-color: #4f6286;
 }
 
@@ -200,7 +206,7 @@ li a:hover {
   }
   
   ul {
-    max-width: 70%;
+    max-width: 100%;
     /* list-style-type: none; */
     /* margin: 0 auto; */
     /* padding: 0; */
@@ -276,7 +282,7 @@ li a:hover {
   }
   
   .flex {
-    margin: 5px;
+    margin-top: 200px;
     background-color: #4f6286;
   }
   
