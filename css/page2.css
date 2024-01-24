@@ -247,6 +247,10 @@ li a:hover {
     overflow: hidden;
     background-color: #333;
   }
+  ul.menu {
+    max-width: 100%;
+    position: relative;
+  }
   
   li {
     float: left;
@@ -305,7 +309,7 @@ li a:hover {
     background-color: #36486b; 
   }
   .flex{
-    margin-top: 310px;
+    margin: 5px;
     background-color: #36486b; 
   }
   

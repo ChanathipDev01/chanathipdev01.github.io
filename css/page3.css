@@ -209,6 +209,10 @@ body {
     overflow: hidden;
     background-color: #333;
   }
+  ul.menu {
+    max-width: 100%;
+    position: relative;
+  }
   
   li {
     float: left;
@@ -254,7 +258,7 @@ body {
   }
   
   .flexone {
-    margin-top: 310px;
+    margin: 5px;
     background-color: #4f6286;
   }
   
