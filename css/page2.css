@@ -299,10 +299,13 @@ li a:hover {
     width: 100%;
   }
   
-  .flex,
-  .flexone,.flextwo,
-  .flextree {
+  
+  .flexone,.flextwo,.flextree {
     margin: 5px;
+    background-color: #36486b; 
+  }
+  .flex{
+    margin-top: 310px;
     background-color: #36486b; 
   }
   
