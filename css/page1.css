@@ -85,7 +85,7 @@ li a:hover {
   width: 100%;
 }
 .flex-info h1{
-  font-size: 40px;
+  font-size: 60px;
 }
 .flex-info p{
   margin: 1rem 0;
@@ -116,7 +116,6 @@ li a:hover {
 }
 
 .hone {
-  font-size: 35px;
   color: #ffffff;
   /* border-bottom: 5px solid #ffffff; */
   padding-bottom: 10px;
