@@ -86,7 +86,7 @@ body {
   }
   .flextwo-con{
     padding: 1rem;
-    background-color: aqua;
+    /* background-color: aqua; */
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -97,6 +97,11 @@ body {
     padding: 3rem;
   }
   .flexone{
+    margin-top: 10px;
+    background-color: #36486b;
+    animation: fadeInUp 500ms;
+  }
+  .flextwo{
     margin-top: 100px;
     background-color: #4f6286;
     animation: fadeInUp 500ms;
@@ -270,6 +275,10 @@ body {
   }
   
   .flexone {
+    margin: 5px;
+    background-color: #4f6286;
+  }
+  .flextwo {
     margin: 5px;
     background-color: #4f6286;
   }
