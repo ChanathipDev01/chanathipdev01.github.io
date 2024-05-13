@@ -179,7 +179,8 @@ li a:hover {
   text-shadow: 2px 3px 1px rgba(253, 143, 16, 0.5);
 }
 .pone {
-  text-align: left;
+  text-align: justify;
+  /* text-align: left; */
   color: #ffffff;
   font-size: 25px;
   margin-top: 10px;
