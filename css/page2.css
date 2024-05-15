@@ -138,6 +138,18 @@ li a:hover {
   margin: 2rem;
   width: 180%;
 }
+.flex-imgco img{
+  display: flex;
+  /* padding: 2rem; */
+  margin-top: 5rem;
+  width: 100%;
+}
+.flex-imgco{
+  display: flex;
+  margin: 2rem;
+  width: 180%;
+  flex-wrap: wrap;
+}
 .flex{
   margin-top: 100px;
   background-color: #36486b ;

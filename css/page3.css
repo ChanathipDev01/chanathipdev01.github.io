@@ -93,17 +93,25 @@ body {
   .flex-item{
     padding: 3rem;
   }
+  .flex-item-web{
+    padding: 3rem;
+  }
   .flextwo-item{
     padding: 3rem;
   }
   .flexone{
     margin-top: 10px;
-    background-color: #36486b;
+    background-color: #4f6286;
     animation: fadeInUp 500ms;
   }
   .flextwo{
     margin-top: 100px;
     background-color: #4f6286;
+    animation: fadeInUp 500ms;
+  }
+  .flex3{
+    margin-top: 10px;
+    background-color: #36486b;
     animation: fadeInUp 500ms;
   }
 
@@ -135,6 +143,7 @@ body {
     margin-top: 5rem;
     width: 100%;
   }
+
   .flex-title{
     border-bottom: 5px solid;
     color: rgb(255, 255, 255);
@@ -151,6 +160,19 @@ body {
   .flex-item h2{
     text-align: left;
     color: aliceblue;
+  }
+  .flex-item-web h2{
+    text-align: left;
+    color: aliceblue;
+    display: none;
+  }
+  .flex-item-web:hover h2 {
+    display: block; 
+  }
+  .flex-item-web img{
+    /* padding: 2rem; */
+    margin-top: 5rem;
+    width: 100%;
   }
 
   /* Media for smaller screens */
