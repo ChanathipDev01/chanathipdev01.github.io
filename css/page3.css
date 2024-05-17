@@ -93,8 +93,15 @@ body {
   .flex-item{
     padding: 3rem;
   }
+  .flex-itemiot{
+    padding-left: 4rem;
+  }
+  .flex-itemgb{
+    padding: 1rem;
+  }
   .flex-item-web{
     padding: 3rem;
+    height: 550px;
   }
   .flextwo-item{
     padding: 3rem;
@@ -143,6 +150,11 @@ body {
     margin-top: 5rem;
     width: 100%;
   }
+  .flex-itemgb img{
+    /* padding: 2rem; */
+    margin-top: 5rem;
+    width: 100%;
+  }
 
   .flex-title{
     border-bottom: 5px solid;
@@ -157,17 +169,52 @@ body {
     font-size: 40px;
     color: #ffffff;
   }
+  .flex-itemiot h1{
+    border-bottom: 5px chartreuse solid;
+    font-size: 40px;
+    color: #ffffff;
+  }
+  .flex-itemgb h1{
+    border-bottom: 5px chartreuse solid;
+    font-size: 40px;
+    color: #ffffff;
+  }
   .flex-item h2{
     text-align: left;
     color: aliceblue;
+    text-align: justify;
   }
-  .flex-item-web h2{
+  .flex-itemiot h2{
     text-align: left;
     color: aliceblue;
+    text-align: justify;
+  }
+  .flex-itemgb h2{
+    text-align: left;
+    color: aliceblue;
+    text-align: justify;
+  }
+  .flex-itemgb h2{
+    text-align: left;
+    color: aliceblue;
+    text-align: justify;
+  }
+  .flex-item-web h2{
+    /* text-align: left;
+    color: aliceblue;
     display: none;
+    text-align: justify; */
+    text-align: left;
+    color: aliceblue;
+    opacity: 0; 
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    text-align: justify;
   }
   .flex-item-web:hover h2 {
-    display: block; 
+    /* display: block;  */
+    opacity: 1;
+    transform: translateY(0);  
   }
   .flex-item-web img{
     /* padding: 2rem; */
@@ -199,6 +246,11 @@ body {
   .flex-item,
   .flextwo-item {
       padding: 1rem;
+  }
+
+  .flex-item-web{
+    padding: 3rem;
+    height: auto;
   }
 
   .picture00,
@@ -352,5 +404,27 @@ body {
   .flex-item h2 {
     text-align: left;
     color: aliceblue;
+    font-size: 16px;
+  }
+  .flex-itemgb h1{
+    font-size: 24px;
+  }
+  .flex-item-web h2{
+    font-size: 16px;
+  }
+  .flex-itemgb h2{
+    font-size: 16px;
+  }
+  .flex-itemgb{
+    padding: 0rem;
+  }
+  .flex-itemiot{
+    padding: 0rem;
+  }
+  .flex-itemiot h1{
+    font-size: 24px;
+  }
+  .flex-itemiot h2{
+    font-size: 16px;
   }
 }
